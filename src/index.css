@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'typo';
+  src: local('typo'), url(./assets/font/typo-grotesk-thin.otf) format('truetype');
+}
+@font-face {
+  font-family: 'syne';
+  src: local('syne'), url(./assets/font/Syne-Regular.ttf) format('truetype');
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+
+  @media screen and (max-width: 800px) {
+    padding: 0;
+  }
+}

@@ -1,0 +1,35 @@
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #00bdb0;
+  background: transparent;
+  transition: all 0.9s ease-in-out;
+  color: #00bdb0;
+}
+.nav-tabs {
+  border-bottom: 2px solid #4e5471;
+}
+.nav-tabs .nav-link {
+  border: 0px solid transparent;
+  color: #fff;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-family: typo;
+  padding: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-tabs {
+    padding: 0;
+    overflow-x: auto;
+  }
+  .nav-tabs .nav-link {
+    overflow-x: auto;
+  }
+}
