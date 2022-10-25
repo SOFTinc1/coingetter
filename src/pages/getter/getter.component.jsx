@@ -1,7 +1,7 @@
 import { GetterContainer } from "./getter.styles";
-import GetterHeader from "../../components/getter-header/getter-header.component";
-import GetterBanner from "../../components/getter-banner/getter-banner.component";
-import GetterTable from "../../components/getter-table/getter-table.component";
+import GetterHeader from "../../components/Getter/getter-header/getter-header.component";
+import GetterBanner from "../../components/Getter/getter-banner/getter-banner.component";
+import GetterTable from "../../components/Getter/getter-table/getter-table.component";
 
 const Getter = () => (
   <GetterContainer>

@@ -1,13 +1,26 @@
 @font-face {
-  font-family: 'typo';
-  src: local('typo'), url(./assets/font/typo-grotesk-thin.otf) format('truetype');
+  font-family: "typo";
+  src: local("typo"),
+    url(./assets/font/typo-grotesk-thin.otf) format("truetype");
 }
 @font-face {
-  font-family: 'syne';
-  src: local('syne'), url(./assets/font/Syne-Regular.ttf) format('truetype');
+  font-family: "syne";
+  src: local("syne"),
+    url(./assets/font/Syne-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "euclid";
+  src: local("euclid"),
+    url(./assets/font/Euclid\ Circular\ A\ Regular.ttf) format("truetype");
 }
 
-a{
+@font-face {
+  font-family: "mb";
+  src: local("mb"),
+    url(./assets/font/Basis\ Grotesque\ Pro\ Regular.ttf) format("truetype");
+}
+
+a {
   text-decoration: none;
 }
 

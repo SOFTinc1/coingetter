@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import AnimatedCursor from "react-animated-cursor";
 
 import HomePage from "./pages/HomePage/Homepage.component";
-import Swap from "./components/swap/swap.component";
+import Swap from "./components/Swap/swap-component/swap.component";
 import Getter from "./pages/getter/getter.component";
 
 
