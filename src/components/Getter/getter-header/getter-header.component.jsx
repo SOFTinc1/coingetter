@@ -19,7 +19,7 @@ import Usdsettings from "../../../assets/svg/usdsettings.svg";
 
 const GetterHeader = () => (
   <GetterHeaderContainer>
-    <Navbar bg="transparent" expand="lg">
+    <Navbar bg="transparent" expand="lg" className="big-header">
       <Container fluid>
         <Navbar.Brand href="/">
           <LogoImg src={Logo} />
@@ -28,7 +28,7 @@ const GetterHeader = () => (
 
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0 big-header"
+            className="ms-auto my-2 my-lg-0"
             navbarScroll
           >
             <Form>

@@ -3,7 +3,6 @@ import {
   Section1,
   H1,
   GreenSpan,
-  LighGreenSpan,
   ButtonContainer,
   Button1,
   Button2,
@@ -17,6 +16,7 @@ import {
   ImageDiv,
   ImageSrc,
 } from "./getter-banner.styles";
+import Marquee from "react-fast-marquee";
 // import High from "../../../assets/image/high.png";
 // import High1 from "../../../assets/image/high1.png";
 // import High2 from "../../../assets/image/high2.png";
@@ -25,18 +25,21 @@ import {
 const GetterBanner = () => (
   <GetterBannerContainer>
     <Section1>
-      <H1>
-        Cryptos: <GreenSpan>20,835</GreenSpan> Exchanges:{" "}
-        <GreenSpan>564</GreenSpan> Market Cap:{" "}
-        <GreenSpan>$1,030,638.94M</GreenSpan>{" "}
-        <LighGreenSpan>1.9%</LighGreenSpan> 24h Vol:{" "}
-        <GreenSpan>$59,211.98M</GreenSpan> Dominance:{" "}
-        <GreenSpan>BTC 37.4% ETH 18.6% Gas: 10 GWEI</GreenSpan>
-      </H1>
-      <ButtonContainer>
+      <Marquee gradient={false} speed={100}>
+        <H1>
+          Cryptos: <GreenSpan>20,835</GreenSpan> Exchanges:{" "}
+          <GreenSpan>564</GreenSpan> Market Cap:{" "}
+          <GreenSpan>$1,030,638.94M</GreenSpan>{" "}
+          <GreenSpan>1.9%</GreenSpan> 24h Vol:{" "}
+          <GreenSpan>$59,211.98M</GreenSpan> Dominance:{" "}
+          <GreenSpan>BTC 37.4% ETH 18.6% Gas: 10 GWEI</GreenSpan>
+        </H1>
+      </Marquee>
+
+      {/* <ButtonContainer>
         <Button1>login</Button1>
         <Button2>signup</Button2>
-      </ButtonContainer>
+      </ButtonContainer> */}
     </Section1>
 
     <Section2>
@@ -51,7 +54,7 @@ const GetterBanner = () => (
     </Section2>
 
     <Section3>
-      <Head>Highpoint</Head>[[-]]
+      <Head>Highpoint</Head>
       {/* <ImageDiv>
         <ImageSrc src={High1} />
         <ImageSrc src={High2} />

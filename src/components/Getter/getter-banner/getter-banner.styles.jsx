@@ -5,7 +5,8 @@ export const GetterBannerContainer = styled.div``;
 export const Section1 = styled.div`
   display: flex;
   background: #eaddff21;
-  padding: 18px 80px;
+  padding: 18px 10px;
+  margin: 40px 0 0 0;
 
   @media screen and (max-width: 800px) {
     display: block;
@@ -15,22 +16,19 @@ export const Section1 = styled.div`
 `;
 export const H1 = styled.h1`
   font-size: 16px;
-  color: #fff;
+  color: #000;
   font-family: euclid;
   font-weight: 400;
-  margin: 15px 0 0 0;
-  // letter-spacing: 2px;
-  // line-height: 22px;
+  margin: auto 0;
+  letter-spacing: 1px;
+  line-height: 22px;
 `;
 export const GreenSpan = styled.span`
-  color: #00bdb0;
-`;
-export const LighGreenSpan = styled.span`
-  color: #11bc60;
+  color: #732eff;
+  font-weight: 800;
 `;
 export const ButtonContainer = styled.div`
   display: flex;
-  margin: 0 0 0 60px;
   gap: 20px;
 
   @media screen and (max-width: 800px) {
@@ -39,21 +37,27 @@ export const ButtonContainer = styled.div`
 `;
 export const Button1 = styled(Button)`
   padding: 13px;
+  width: 120px;
   text-transform: capitalize;
+  border-radius: 50px;
+  text-align: center;
 `;
 export const Button2 = styled(Button)`
   padding: 13px;
+  width: 120px;
   text-transform: capitalize;
+  border-radius: 50px;
+  text-align: center;
 `;
 export const Section2 = styled.div``;
 export const BannerText = styled.h1`
-  color: #fff;
+  color: #000;
   font-family: typo;
   font-weight: 800;
   letter-spacing: 2px;
   text-align: center;
   font-size: 78px;
-  margin: 50px 0 0 0;
+  margin: 30px 0 0 0;
   padding: 24px 200px;
 
   @media screen and (max-width: 800px) {
@@ -62,12 +66,11 @@ export const BannerText = styled.h1`
   }
 `;
 export const BannerTextSpan = styled.span`
-  color: #00bdb0;
+  color: #732eff;
 `;
-export const BannerDetails = styled.p`
+export const BannerDetails = styled.h1`
   padding: 0 150px;
-  color: #fff;
-  opacity: 0.6;
+  color: #000;
   font-family: typo;
   font-weight: 800;
   letter-spacing: 2px;
@@ -81,8 +84,9 @@ export const BannerDetails = styled.p`
   }
 `;
 export const BannerDetailsSpan = styled.span`
-  color: #00bdb0;
+  color: #732eff;
   font-size: 15px;
+  font-weight: 800;
 `;
 export const Section3 = styled.div`
   padding: 44px 80px;
@@ -92,7 +96,7 @@ export const Section3 = styled.div`
   }
 `;
 export const Head = styled.h1`
-  color: #fff;
+  color: #000;
   font-family: typo;
   font-weight: 800;
   letter-spacing: 0.0015em;

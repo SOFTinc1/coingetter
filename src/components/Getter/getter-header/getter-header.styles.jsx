@@ -1,10 +1,22 @@
 import styled from "styled-components";
 
 export const GetterHeaderContainer = styled.div`
-  padding: 10px 60px;
+  padding: 2px 20px 2px 10px;
+  border-radius: 50px;
+  width: 90%;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
 
   @media screen and (max-width: 800px) {
     padding: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
   }
 `;
 export const LogoImg = styled.img`

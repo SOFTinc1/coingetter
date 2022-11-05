@@ -9,7 +9,7 @@ import Logo from "../../../assets/svg/logo.svg";
 
 const SwapHeader = () => (
   <SwapHeaderContainer>
-    <Navbar bg="transparent" expand="lg" className="navbar-swap">
+    <Navbar bg="transparent" expand="md" className="navbar-swap">
       <Container fluid>
         <Navbar.Brand href="/">
           <LogoImg src={Logo} />
@@ -17,23 +17,23 @@ const SwapHeader = () => (
         <Navbar.Toggle aria-controls="navbarScroll" />
 
         <Navbar.Collapse id="navbarScroll">
-          <Nav className="me-auto my-2 my-lg-0 big-header" navbarScroll>
-            <Nav.Link href="#action2" className="option-nav">
+          <Nav className="ms-auto my-2 my-lg-0 big-header" navbarScroll>
+            <Nav.Link href="#action2" className="option-nav2">
               cryptocurrencies
             </Nav.Link>
-            <Nav.Link href="#action2" className="option-nav">
+            <Nav.Link href="#action2" className="option-nav2">
               exchanges
             </Nav.Link>
-            <Nav.Link href="#action2" className="option-nav">
+            <Nav.Link href="#action2" className="option-nav2">
               NFT
             </Nav.Link>
-            <Nav.Link href="#action2" className="option-nav">
+            <Nav.Link href="#action2" className="option-nav2">
               learn
             </Nav.Link>
-            <Nav.Link href="#action2" className="option-nav">
+            <Nav.Link href="#action2" className="option-nav2">
               product
             </Nav.Link>
-            <Nav.Link href="#action2" className="option-nav">
+            <Nav.Link href="#action2" className="option-nav2">
               portfolio
             </Nav.Link>
             {/* <Nav.Link href="#action2" className="option-nav">

@@ -1,16 +1,12 @@
-import { BannerContainer, Head, H1, P, ImageRow, Image } from "./banner.styles";
-import bannerImg from "../../../assets/image/cover.jpg";
+import { BannerContainer, H1, Image } from "./banner.styles";
+import Girl from "../../../assets/image/girl.jpg";
 
 const Banner = () => (
   <BannerContainer>
-    <Head>welcome</Head>
-    <H1>we have everything crypto</H1>
-    <P>
-      discover the wonders of crypto from swap to marketplace to watching and monitoring, coingetter is the complete crypto platform
-    </P>
-    <ImageRow>
-      <Image src={bannerImg} />
-    </ImageRow>
+    <H1>
+      we have <Image src={Girl} /> everything crypto, discover the wonders of
+      crypto from swap to <Image src={Girl} /> marketplace
+    </H1>
   </BannerContainer>
 );
 

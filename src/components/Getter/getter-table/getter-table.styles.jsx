@@ -13,13 +13,13 @@ export const GetterTableContainer = styled.div`
 export const TabsContainer = styled(Tabs)``;
 export const TabContainer = styled(Tab)``;
 export const H1 = styled.h1`
-  color: #fff;
-  font-weight: 800;
-  font-size: 42px;
-  line-height: 17px;
-  text-align: center;
-  letter-spacing: 2px;
-  cursor: pointer;
-  font-family: typo;
-  margin: 30px auto;
+  // color: #fff;
+  // font-weight: 800;
+  // font-size: 42px;
+  // line-height: 17px;
+  // text-align: center;
+  // letter-spacing: 2px;
+  // cursor: pointer;
+  // font-family: typo;
+  // margin: 30px auto;
 `;

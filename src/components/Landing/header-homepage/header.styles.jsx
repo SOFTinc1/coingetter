@@ -2,9 +2,10 @@ import styled from "styled-components";
 // import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
-margin: 20px auto;
-width: 285px;
-font-family: typo;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 285px;
+  font-family: typo;
 `;
 export const Row = styled.div``;
 export const Col1 = styled.div``;
@@ -35,6 +36,6 @@ export const Option = styled.a`
   text-decoration: none;
 
   &:active {
-    color: purple
+    color: purple;
   }
 `;

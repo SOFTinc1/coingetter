@@ -1,14 +1,22 @@
 import styled from "styled-components";
 
 export const SwapHeaderContainer = styled.div`
-  padding: 0 60px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  background: #fff;
-  border-radius: 5px;
+  padding: 2px 60px;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  width: 90%;
 
   @media screen and (max-width: 800px) {
     padding: 0;
-    margin: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
   }
 `;
 export const LogoImg = styled.img`

@@ -36,7 +36,7 @@ const GetterTableData = () => (
           <div class="grid-item grid-item--header">
             <p>Coins</p>
           </div>
-          <div class="grid-item move-away">
+          <div class="grid-item move-away move-away-par">
             <div className="coin-flex">
               <Image1 src={Bitcoin} />
               <div className="details">

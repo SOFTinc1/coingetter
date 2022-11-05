@@ -3,17 +3,17 @@
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 3px solid #00bdb0;
+  border-bottom: 3px solid #732eff;
   background: transparent;
   transition: all 0.9s ease-in-out;
-  color: #00bdb0;
+  color: #732eff;
 }
 .nav-tabs {
-  border-bottom: 2px solid #4e5471;
+  border-bottom: 2px solid #E0E0E0;
 }
 .nav-tabs .nav-link {
   border: 0px solid transparent;
-  color: #fff;
+  color: #000;
   font-weight: 800;
   font-size: 14px;
   line-height: 17px;

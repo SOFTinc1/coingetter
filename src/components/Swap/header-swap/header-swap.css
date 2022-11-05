@@ -1,13 +1,12 @@
-.option-nav {
+.option-nav2 {
   font-family: typo;
   font-weight: 800;
   text-transform: capitalize;
   letter-spacing: 1px;
-  margin: 7px 0 0 15px;
   color: #000;
-  font-size: 14px;
+  font-size: 16px;
 }
-.option-nav:hover {
+.option-nav2:hover {
   color: #000;
 }
 .navbar-toggler {
@@ -40,22 +39,7 @@
   .navbar-swap {
     margin: -10px 0 0 0;
   }
-  .option-nav {
-    color: #000;
-  }
-  .option-nav:hover {
-    color: #000;
-  }
   .big-header {
     height: auto;
-  }
-  .usd-button {
-    display: flex;
-    width: 50%;
-    gap: 10px;
-    padding: 10px;
-    border: none;
-    color: #000;
-    margin: 0;
   }
 }

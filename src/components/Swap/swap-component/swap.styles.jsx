@@ -4,8 +4,11 @@ import Button from "../../button/button";
 // import Tab from "react-bootstrap/Tab";
 
 export const SwapContainer = styled.div`
-  background: #F5F5F5;
-  
+  // background-color: #141B29;
+  padding: 20px 0 0 0;
+  font-family: euclid;
+  // font-weight: bolder;
+
   @media only screen and (max-width: 800px) {
     padding: 20px 10px;
   }
@@ -23,12 +26,14 @@ export const Split = styled.div`
 `;
 export const Card = styled.div`
   background: #fff;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  // box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
   padding: 20px;
-  border-radius: 7px;
+  border-radius: 0px;
+  border: 1px solid #E0E0E0;
 `;
 export const Title = styled.h1`
-  font-family: euclid;
+  // font-family: euclid;
   font-weight: 600;
   font-size: 16px;
   margin: 0;
@@ -37,13 +42,13 @@ export const Title = styled.h1`
   text-transform: capitalize;
 `;
 export const P = styled.p`
-  font-family: euclid;
+  // font-family: euclid;
   font-weight: 400;
   font-size: 16px;
 `;
 export const FromDiv = styled.div``;
 export const Row = styled.div`
-  background: #F5F5F5;
+  background: #f5f5f5;
   padding: 20px;
   border-radius: 7px;
 `;
@@ -58,13 +63,13 @@ export const Up = styled.div`
   }
 `;
 export const From = styled.div`
-  font-family: euclid;
+  // font-family: euclid;
   font-weight: 400;
   font-size: 16px;
   text-transform: capitalize;
 `;
 export const Equi = styled.div`
-  font-family: euclid;
+  // font-family: euclid;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -85,8 +90,8 @@ export const Down = styled.div`
   }
 `;
 export const UserInput = styled.input`
+  // font-family: euclid;
   border: none;
-  font-family: euclid;
   font-weight: 600;
   font-size: 16px;
   outline: none;
@@ -95,7 +100,7 @@ export const UserInput = styled.input`
   background: transparent;
 
   &::placeholder {
-    font-family: euclid;
+    // font-family: euclid;
     font-weight: 600;
     font-size: 16px;
     color: #732eff;
@@ -122,7 +127,7 @@ export const CoinLogo = styled.img`
   width: 25%;
 `;
 export const CoinName = styled.p`
-  font-family: euclid;
+  // font-family: euclid;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 9px;
@@ -149,7 +154,7 @@ export const PriceDiv = styled.div`
   }
 `;
 export const Price = styled.div`
-  font-family: euclid;
+  // font-family: euclid;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 14px;
@@ -187,9 +192,11 @@ export const ButtonC = styled(Button)`
 `;
 export const Card2 = styled.div`
   background: #fff;
+  // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  // box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
   padding: 20px;
-  border-radius: 7px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 0px;
+  border: 1px solid #E0E0E0;
 
   @media only screen and (max-width: 800px) {
     margin: 30px 0 0 0;
@@ -204,22 +211,22 @@ export const Div = styled.span`
   grid-gap: 50px;
 `;
 export const Recieved = styled.h1`
-  font-family: euclid;
+  // font-family: euclid;
   font-weight: 400;
   letter-spacing: 1px;
   font-size: 16px;
   text-transform: capitalize;
 `;
 export const RecievedA = styled.h1`
-  font-family: euclid;
+  // font-family: euclid;
   font-weight: 400;
   letter-spacing: 1px;
   font-size: 16px;
   text-transform: capitalize;
 `;
 export const Green = styled.h1`
+  // font-family: euclid;
   color: green;
-  font-family: euclid;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 16px;
