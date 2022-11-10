@@ -1,10 +1,10 @@
 import { SwapHeaderContainer, LogoImg } from "./header-swap.styles";
 import "./header-swap.css";
-import "./dark-mode-settings.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "../../../assets/svg/logo.svg";
+// import "./dark-mode-settings.css";
 // import DarkMode from "../../Landing/DarkMode/DarkMode";
 
 const SwapHeader = () => (

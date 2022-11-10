@@ -25,7 +25,7 @@ export default function HeaderHomepage() {
           </Option>
           <Option
             onClick={() => {
-              navigate("/about");
+              navigate("/marketplace");
             }}
           >
             marketplace

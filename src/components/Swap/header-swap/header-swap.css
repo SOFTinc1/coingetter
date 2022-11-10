@@ -1,7 +1,7 @@
 .option-nav2 {
   font-family: typo;
   font-weight: 800;
-  text-transform: capitalize;
+  text-transform: lowercase;
   letter-spacing: 1px;
   color: #000;
   font-size: 16px;

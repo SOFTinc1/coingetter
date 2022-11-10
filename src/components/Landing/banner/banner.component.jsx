@@ -1,12 +1,37 @@
-import { BannerContainer, H1, Image } from "./banner.styles";
-import Girl from "../../../assets/image/girl.jpg";
+import {
+  BannerContainer,
+  Row,
+  Col1,
+  Col2,
+  ImageSrc,
+  H1,
+  Details,
+  Image,
+  ButtonC
+} from "./banner.styles";
+import Girl from "../../../assets/image/girl.png";
+import BannerImg from "../../../assets/image/banner.png";
+import Footer from "../../footer/footer.component";
 
 const Banner = () => (
   <BannerContainer>
-    <H1>
-      we have <Image src={Girl} /> everything crypto, discover the wonders of
-      crypto from swap to <Image src={Girl} /> marketplace
-    </H1>
+    <Row>
+      <Col1>
+        <H1>
+          we have <Image src={Girl} /> everything crypto
+        </H1>
+        <Details>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit, Quasi
+          repellendus repudiandae similique? Dolor doloribus iste natus eaque at
+          id iusto
+        </Details>
+        <ButtonC>swap | getter | marketplace</ButtonC>
+      </Col1>
+      <Col2>
+        <ImageSrc src={BannerImg} />
+      </Col2>
+      <Footer />
+    </Row>
   </BannerContainer>
 );
 

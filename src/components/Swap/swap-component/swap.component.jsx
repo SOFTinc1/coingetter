@@ -1,4 +1,4 @@
-import SwapHeader from "../header-swap/header-swap.component";
+import SwapHeader from "../swap-header/getter-header.component";
 import {
   SwapContainer,
   // TabsContainer,
@@ -36,8 +36,6 @@ import Coin from "../../../assets/svg/bitcoin.svg";
 import SwapLogo from "../../../assets/svg/swap.png";
 
 const Swap = () => (
-    // let navigate = useNavigate();
-
   <SwapContainer>
     <SwapHeader />
     <Split>

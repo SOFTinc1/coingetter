@@ -4,9 +4,9 @@ import Button from "../../button/button";
 // import Tab from "react-bootstrap/Tab";
 
 export const SwapContainer = styled.div`
-  // background-color: #141B29;
-  padding: 20px 0 0 0;
-  font-family: euclid;
+padding: 0;
+font-family: euclid;
+// background-color: #141B29;
   // font-weight: bolder;
 
   @media only screen and (max-width: 800px) {
@@ -184,6 +184,8 @@ export const ButtonC = styled(Button)`
   letter-spacing: 1px;
   padding: 15px 10px;
   text-align: center;
+  border-radius: 50px;
+  font-size: 18px;
 
   @media only screen and (max-width: 800px) {
     width: 100%;

@@ -1,13 +1,11 @@
 import { HomePageConatiner } from "./Homepage.styles";
 import Banner from "../../components/Landing/banner/banner.component";
-import HeaderHomepage from "../../components/Landing/header-homepage/header.component";
-import Section6 from "../../components/Landing/section6/section6.component";
+import LandingHeader from "../../components/Landing/landing-header/getter-header.component";
 
 const HomePage = () => (
   <HomePageConatiner>
-    <HeaderHomepage />
+    <LandingHeader />
     <Banner />
-    <Section6 />
   </HomePageConatiner>
 );
 

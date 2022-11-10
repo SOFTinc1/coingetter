@@ -6,6 +6,7 @@ import AnimatedCursor from "react-animated-cursor";
 import HomePage from "./pages/HomePage/Homepage.component";
 import Swap from "./components/Swap/swap-component/swap.component";
 import Getter from "./pages/getter/getter.component";
+import Marketplace from "./pages/marketplace/marketplace.component";
 
 
 class App extends React.Component {
@@ -42,6 +43,7 @@ class App extends React.Component {
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/swap" element={<Swap />} />
           <Route exact path="/getter" element={<Getter />} />
+          <Route exact path="/marketplace" element={<Marketplace />} />
         </Routes>
       </div>
     );
