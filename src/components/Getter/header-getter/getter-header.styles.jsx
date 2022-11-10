@@ -8,9 +8,6 @@ export const GetterHeaderContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     padding: 0;
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none;
   }
 `;
 export const LogoImg = styled.img`
@@ -18,6 +15,10 @@ export const LogoImg = styled.img`
   padding: 0;
   width: 80%;
   margin: auto;
+
+  @media screen and (max-width: 800px) {
+    width: 150px;
+  }
 `;
 export const Image1 = styled.img`
   width: 30%;

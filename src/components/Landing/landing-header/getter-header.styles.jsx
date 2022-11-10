@@ -7,14 +7,15 @@ export const GetterHeaderContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     padding: 0;
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none;
   }
 `;
 export const LogoImg = styled.img`
-  align-items: center;
+  // align-items: center;
   padding: 0;
   width: 30%;
   margin: auto;
+
+  @media screen and (max-width: 800px) {
+    width: 150px;
+  }
 `;

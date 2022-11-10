@@ -5,13 +5,17 @@ export const BannerContainer = styled.div`
   padding: 0;
 
   @media screen and (max-width: 800px) {
-    padding: 80px 10px 0 10px;
+    padding: 0;
   }
 `;
 export const Row = styled.div`
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   grid-gap: 0px;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
 `;
 export const Col1 = styled.div``;
 export const H1 = styled.h1`
@@ -21,16 +25,13 @@ export const H1 = styled.h1`
   margin: 150px auto 20px auto;
   font-size: 30px;
   color: #363f4a;
-  text-transform: lowercase;
+  // text-transform: lowercase;
   letter-spacing: 1px;
   line-height: 54px;
 
   @media screen and (max-width: 800px) {
     font-size: 25px;
-    margin: 0;
-    line-height: 66px;
-    font-family: typo;
-    font-weight: 800;
+    margin: 20px auto 20px auto;
   }
 `;
 export const Details = styled.p`
@@ -43,11 +44,7 @@ export const Details = styled.p`
   letter-spacing: 2px;
 
   @media screen and (max-width: 800px) {
-    font-size: 25px;
-    margin: 0;
-    line-height: 66px;
-    font-family: typo;
-    font-weight: 800;
+    font-size: 14px;
   }
 `;
 export const ButtonC = styled(Button)`
@@ -61,6 +58,11 @@ export const ButtonC = styled(Button)`
   text-transform: lowercase;
   opacity: .6;
   font-weight: 400;
+
+  @media screen and (max-width: 800px) {
+    width: 90%;
+    margin: 10px auto 30px auto;
+  }
 `;
 export const Image = styled.img`
   width: 100px;

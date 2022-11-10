@@ -3,14 +3,11 @@ import Button from "../../button/button";
 
 export const GetterHeaderContainer = styled.div`
   padding: 0 80px;
-  // background: #eaddff21;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+  // background: #eaddff21;
 
   @media screen and (max-width: 800px) {
     padding: 0;
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none;
   }
 `;
 export const LogoImg = styled.img`
@@ -18,6 +15,10 @@ export const LogoImg = styled.img`
   padding: 0;
   width: 30%;
   margin: auto;
+
+  @media screen and (max-width: 800px) {
+    width: 150px;
+  }
 `;
 export const ButtonC = styled(Button)`
   width: 100%;

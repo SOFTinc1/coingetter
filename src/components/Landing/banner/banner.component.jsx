@@ -18,7 +18,7 @@ const Banner = () => (
     <Row>
       <Col1>
         <H1>
-          we have <Image src={Girl} /> everything crypto
+          we have <Image src={Girl} /> everything Crypto
         </H1>
         <Details>
           Lorem ipsum dolor sit amet consectetur adipisicing elit, Quasi

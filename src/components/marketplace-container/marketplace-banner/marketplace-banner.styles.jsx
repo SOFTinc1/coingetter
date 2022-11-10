@@ -11,6 +11,10 @@ export const Row = styled.div`
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 10px;
   padding: 30px 0 0 0;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
 `;
 export const Col1 = styled.div`
   display: flex;
@@ -19,8 +23,13 @@ export const Col1 = styled.div`
 // export const Flex = styled.div``;
 export const ImageSrc1 = styled.img`
   width: 250px;
+  height: 80%;
   margin: 70px 0 auto -160px;
   border-radius: 12px;
+
+  @media screen and (max-width: 800px) {
+    border-radius: 0;
+  }
 `;
 export const Inner = styled.div`
   display: flex;
@@ -31,11 +40,19 @@ export const ImageSrc2 = styled.img`
   width: 100%;
   height: 100%;
   border-radius: 12px;
+
+  @media screen and (max-width: 800px) {
+    border-radius: 0;
+  }
 `;
 export const ImageSrc3 = styled.img`
   width: 100%;
   height: 70%;
   border-radius: 12px;
+
+  @media screen and (max-width: 800px) {
+    border-radius: 0;
+  }
 `;
 export const Col2 = styled.div``;
 export const Small = styled.h2`
@@ -46,11 +63,18 @@ export const Small = styled.h2`
   padding-bottom: 20px;
   text-align: center;
   letter-spacing: 1px;
+
+  @media screen and (max-width: 800px) {
+    margin: 50px 0 0 0;
+  }
 `;
 export const Hr = styled.hr`
   width: 50px;
   margin: 0 auto 140px auto;
   
+  @media screen and (max-width: 800px) {
+    margin: 0 auto 10px auto;
+  }
 `;
 export const Head = styled.h1`
   font-family: euclid;
@@ -75,27 +99,43 @@ export const ButtonC = styled(Button)`
   text-align: center;
   padding: 10px;
   border-radius: 50px;
+
+  @media screen and (max-width: 800px) {
+    margin: 0 auto 60px auto;
+  }
 `;
 export const Col3 = styled.div`
   display: flex;
   gap: 10px;
-  // margin: 0 0 0 50px;
 `;
 export const ImageSrc4 = styled.img`
   width: 100%;
   height: 100%;
   border-radius: 12px;
   margin: 0 0 0 10px;
+
+  @media screen and (max-width: 800px) {
+    border-radius: 0;
+    margin: 0;
+  }
 `;
 export const ImageSrc5 = styled.img`
   width: 100%;
   height: 70%;
   border-radius: 12px;
   margin: 0 0 0 10px;
+
+  @media screen and (max-width: 800px) {
+    border-radius: 0;
+  }
 `;
 export const ImageSrc6 = styled.img`
   width: 100%;
   height: 80%;
   border-radius: 12px;
   margin: 50px 0 auto 20px;
+
+  @media screen and (max-width: 800px) {
+    border-radius: 0;
+  }
 `;

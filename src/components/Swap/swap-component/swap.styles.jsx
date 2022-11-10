@@ -4,13 +4,10 @@ import Button from "../../button/button";
 // import Tab from "react-bootstrap/Tab";
 
 export const SwapContainer = styled.div`
-padding: 0;
-font-family: euclid;
-// background-color: #141B29;
-  // font-weight: bolder;
+  padding: 0;
+  font-family: euclid;
 
   @media only screen and (max-width: 800px) {
-    padding: 20px 10px;
   }
 `;
 export const Split = styled.div`
@@ -30,7 +27,7 @@ export const Card = styled.div`
   // box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
   padding: 20px;
   border-radius: 0px;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
 `;
 export const Title = styled.h1`
   // font-family: euclid;
@@ -198,7 +195,7 @@ export const Card2 = styled.div`
   // box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
   padding: 20px;
   border-radius: 0px;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
 
   @media only screen and (max-width: 800px) {
     margin: 30px 0 0 0;
