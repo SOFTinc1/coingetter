@@ -54,7 +54,7 @@ export const Details = styled.p`
   margin: 40px 0 0 0;
 
   @media screen and (max-width: 800px) {
-    font-size: 14px;
+    font-size: 20px;
   }
 `;
 export const ButtonC = styled(Button)`

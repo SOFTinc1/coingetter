@@ -32,11 +32,14 @@ export const ButtonContainer = styled.div`
   gap: 20px;
 
   @media screen and (max-width: 800px) {
-    margin: 30px auto;
+    margin: 30px 0;
+    gap: 0;
+    // display: none;
   }
 `;
 export const Button1 = styled(Button)`
   padding: 13px;
+  margin: auto;
   width: 120px;
   text-transform: capitalize;
   border-radius: 50px;
@@ -44,10 +47,13 @@ export const Button1 = styled(Button)`
 `;
 export const Button2 = styled(Button)`
   padding: 13px;
+  margin: auto;
   width: 120px;
   text-transform: capitalize;
   border-radius: 50px;
   text-align: center;
+  background: transparent;
+  border: 3px solid #f5f5f5;
 `;
 export const Section2 = styled.div``;
 export const BannerText = styled.h1`
@@ -57,8 +63,7 @@ export const BannerText = styled.h1`
   letter-spacing: 2px;
   text-align: center;
   font-size: 78px;
-  margin: 30px 0 0 0;
-  padding: 24px 200px;
+  padding: 64px 200px 20px 200px;
   text-transform: lowercase;
 
   @media screen and (max-width: 800px) {
@@ -70,7 +75,7 @@ export const BannerTextSpan = styled.span`
   color: #732eff;
 `;
 export const BannerDetails = styled.h1`
-  padding: 0 150px;
+  padding: 0 150px 64px 150px;
   color: #000;
   font-family: euclid;
   font-weight: 400;
@@ -94,6 +99,14 @@ export const Section3 = styled.div`
 
   @media screen and (max-width: 800px) {
     padding: 44px 0;
+  }
+`;
+export const HeadContainer = styled.div`
+  display: flex;
+  gap: 20px;
+
+  @media screen and (max-width: 800px) {
+    
   }
 `;
 export const Head = styled.h1`
