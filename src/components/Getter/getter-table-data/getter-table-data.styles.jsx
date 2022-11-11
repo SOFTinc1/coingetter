@@ -3,15 +3,6 @@ import styled from "styled-components";
 export const GetterTableDataContainer = styled.div`
   margin: 20px 0 0 0;
 `;
-export const Image0 = styled.img`
-  width: 25%;
-  margin: -8px 0 0 0;
-
-  @media screen and (max-width: 800px) {
-    // margin: 24px 0 0 0;
-    width: 45%;
-  }
-`;
 export const Image1 = styled.img`
   width: 30%;
   margin: -8px 0 0 0;

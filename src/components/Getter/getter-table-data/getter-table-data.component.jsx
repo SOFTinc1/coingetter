@@ -1,12 +1,10 @@
 import {
   GetterTableDataContainer,
-  Image0,
   Image1,
   Image2,
   Image3,
 } from "./getter-table-data.styles";
 import "./getter-table.css";
-import Star from "../../../assets/svg/star.svg";
 import Bitcoin from "../../../assets/svg/bitcoin.svg";
 import Graph from "../../../assets/svg/graph.svg";
 import More from "../../../assets/svg/more.svg";
@@ -22,10 +20,9 @@ const GetterTableData = (props) => (
           </div>
           <div class="grid-item move-away">
             <div className="star-flex">
-              <Image0 src={Star} />
               <div className="details">
                 <p className="big">
-                  1
+                &#9733;  1
                 </p>
               </div>
             </div>
@@ -42,8 +39,8 @@ const GetterTableData = (props) => (
               <div className="details">
                 <p className="big">
                   BTC <br />
-                  {/* Bitcoin{" "} */}
-                  {props.student.firstName}
+                  Bitcoin{" "}
+                  {/* {props.student.firstName} */}
                 </p>
               </div>
             </div>

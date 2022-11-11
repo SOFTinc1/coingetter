@@ -17,51 +17,61 @@ export const Row = styled.div`
     display: block;
   }
 `;
-export const Col1 = styled.div``;
+export const Col1 = styled.div`
+  padding: 0 20px 0 80px;
+  margin: 100px auto 20px auto;
+
+  @media screen and (max-width: 800px) {
+    padding: 20px;
+    margin: 10px auto 20px auto;
+  }
+`;
 export const H1 = styled.h1`
   font-family: euclid;
   font-weight: 800;
-  text-align: center;
-  margin: 120px auto 20px auto;
+  text-align: left;
   font-size: 55px;
   color: #363f4a;
   letter-spacing: 1px;
   line-height: 74px;
   padding: 0 10px;
+  text-decoration: underline;
+  margin: 0;
 
   @media screen and (max-width: 800px) {
-    font-size: 25px;
+    font-size: 50px;
     margin: 20px auto 20px auto;
   }
 `;
 export const Details = styled.p`
   font-family: typo;
   font-weight: 800;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
   color: #141b29;
   text-transform: lowercase;
   letter-spacing: 2px;
+  margin: 40px 0 0 0;
 
   @media screen and (max-width: 800px) {
     font-size: 14px;
   }
 `;
 export const ButtonC = styled(Button)`
-  width: 70%;
-  margin: 50px auto 0 auto;
+  width: 40%;
+  margin: 40px 0 0 0;
   text-align: center;
   padding: 10px 20px;
   border-radius: 50px;
-  font-size: 18px;
+  font-size: 24px;
   color: #000;
   text-transform: lowercase;
-  opacity: .6;
   font-weight: 400;
 
   @media screen and (max-width: 800px) {
-    width: 90%;
-    margin: 10px auto 30px auto;
+    width: 50%;
+    margin: 40px 0 30px 0;
+    padding: 20px;
   }
 `;
 export const Image = styled.img`

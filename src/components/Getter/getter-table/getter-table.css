@@ -13,7 +13,7 @@
 }
 .nav-tabs .nav-link {
   border: 0px solid transparent;
-  color: #000;
+  color: #777;
   font-weight: 400;
   font-size: 17px;
   line-height: 32px;
@@ -22,6 +22,9 @@
   cursor: pointer;
   font-family: euclid;
   padding: 16px 10px;
+}
+.nav-tabs:hover .nav-link:hover {
+  color: #000;
 }
 
 @media screen and (max-width: 800px) {

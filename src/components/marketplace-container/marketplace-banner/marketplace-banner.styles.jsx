@@ -99,11 +99,8 @@ export const Hr = styled.hr`
   width: 50px;
   margin: 0 auto 140px auto;
 
-  @media screen and (max-width: 512px) {
-    margin: 0 auto 50px auto;
-  }
-  @media screen and (max-width: 400px) {
-    margin: 0 auto 10px auto;
+  @media screen and (max-width: 800px) {
+    margin: 0 auto 0 auto;
   }
 `;
 export const Head = styled.h1`

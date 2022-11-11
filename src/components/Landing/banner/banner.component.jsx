@@ -18,14 +18,14 @@ const Banner = () => (
     <Row>
       <Col1>
         <H1>
-          we have <Image src={Girl} /> everything Crypto
+          We have <Image src={Girl} /> <br /> everything Crypto
         </H1>
         <Details>
           Lorem ipsum dolor sit amet consectetur adipisicing elit, Quasi
           repellendus repudiandae similique? Dolor doloribus iste natus eaque at
           id iusto
         </Details>
-        <ButtonC>swap | getter | marketplace</ButtonC>
+        <ButtonC>&#9654; enter</ButtonC>
       </Col1>
       <Col2>
         <ImageSrc src={BannerImg} />
