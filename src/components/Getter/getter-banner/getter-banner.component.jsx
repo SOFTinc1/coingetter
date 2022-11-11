@@ -13,14 +13,9 @@ import {
   BannerDetailsSpan,
   Section3,
   Head,
-  ImageDiv,
-  ImageSrc,
 } from "./getter-banner.styles";
 import Marquee from "react-fast-marquee";
-// import High from "../../../assets/image/high.png";
-// import High1 from "../../../assets/image/high1.png";
-// import High2 from "../../../assets/image/high2.png";
-// import High3 from "../../../assets/image/high3.png";
+import GetterHighpoint from "../getter-highpoint/getter-highpoint.component";
 
 const GetterBanner = () => (
   <GetterBannerContainer>
@@ -55,12 +50,7 @@ const GetterBanner = () => (
 
     <Section3>
       <Head>Highpoint</Head>
-      {/* <ImageDiv>
-        <ImageSrc src={High1} />
-        <ImageSrc src={High2} />
-        <ImageSrc src={High3} />
-        <ImageSrc src={High} />
-      </ImageDiv> */}
+      <GetterHighpoint />
     </Section3>
   </GetterBannerContainer>
 );

@@ -52,13 +52,14 @@ export const Button2 = styled(Button)`
 export const Section2 = styled.div``;
 export const BannerText = styled.h1`
   color: #000;
-  font-family: typo;
-  font-weight: 800;
+  font-family: euclid;
+  font-weight: 600;
   letter-spacing: 2px;
   text-align: center;
   font-size: 78px;
   margin: 30px 0 0 0;
   padding: 24px 200px;
+  text-transform: lowercase;
 
   @media screen and (max-width: 800px) {
     font-size: 52px;
@@ -71,8 +72,8 @@ export const BannerTextSpan = styled.span`
 export const BannerDetails = styled.h1`
   padding: 0 150px;
   color: #000;
-  font-family: typo;
-  font-weight: 800;
+  font-family: euclid;
+  font-weight: 400;
   letter-spacing: 2px;
   text-align: center;
   font-size: 20px;
@@ -89,7 +90,7 @@ export const BannerDetailsSpan = styled.span`
   font-weight: 800;
 `;
 export const Section3 = styled.div`
-  padding: 44px 80px;
+  padding: 44px 0 44px 30px;
 
   @media screen and (max-width: 800px) {
     padding: 44px 0;
@@ -97,8 +98,8 @@ export const Section3 = styled.div`
 `;
 export const Head = styled.h1`
   color: #000;
-  font-family: typo;
-  font-weight: 800;
+  font-family: euclid;
+  font-weight: 400;
   letter-spacing: 0.0015em;
   text-align: left;
   font-size: 40px;

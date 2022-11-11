@@ -14,14 +14,14 @@
 .nav-tabs .nav-link {
   border: 0px solid transparent;
   color: #000;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 17px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   cursor: pointer;
-  font-family: typo;
-  padding: 16px;
+  font-family: euclid;
+  padding: 16px 10px;
 }
 
 @media screen and (max-width: 800px) {

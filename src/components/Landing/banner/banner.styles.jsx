@@ -22,12 +22,12 @@ export const H1 = styled.h1`
   font-family: euclid;
   font-weight: 800;
   text-align: center;
-  margin: 150px auto 20px auto;
-  font-size: 30px;
+  margin: 120px auto 20px auto;
+  font-size: 55px;
   color: #363f4a;
-  // text-transform: lowercase;
   letter-spacing: 1px;
-  line-height: 54px;
+  line-height: 74px;
+  padding: 0 10px;
 
   @media screen and (max-width: 800px) {
     font-size: 25px;

@@ -11,7 +11,7 @@ import Bitcoin from "../../../assets/svg/bitcoin.svg";
 import Graph from "../../../assets/svg/graph.svg";
 import More from "../../../assets/svg/more.svg";
 
-const GetterTableData = () => (
+const GetterTableData = (props) => (
   <GetterTableDataContainer>
     <div class="grid-container">
       <div class="grid">
@@ -42,7 +42,8 @@ const GetterTableData = () => (
               <div className="details">
                 <p className="big">
                   BTC <br />
-                  Bitcoin{" "}
+                  {/* Bitcoin{" "} */}
+                  {props.student.firstName}
                 </p>
               </div>
             </div>

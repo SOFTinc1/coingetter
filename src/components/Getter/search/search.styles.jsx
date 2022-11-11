@@ -27,9 +27,9 @@ export const FormInputContainer = styled.input`
   &:focus {
     color: #000;
     outline: none;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 16px;
-    font-family: typo;
+    font-family: euclid;
 
     @media screen and (max-width: 800px) {
       color: #000;
@@ -37,12 +37,11 @@ export const FormInputContainer = styled.input`
   }
 
   &::placeholder {
-    font-weight: 800;
-    font-size: 16px;
-    font-family: typo;
-    letter-spacing: 1px;
-    color: rgba(255, 255, 255, 0.45);
+    font-weight: 400;
+    font-size: 18px;
+    font-family: euclid;
     color: #000;
+    
 
     @media screen and (max-width: 800px) {
       color: #000;
@@ -58,6 +57,6 @@ export const SearchImg = styled.img`
   padding: 0 20px 0 0;
 
   @media screen and (max-width: 800px) {
-   width: 50px;
+   width: 40px;
   }
 `;

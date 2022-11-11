@@ -57,26 +57,26 @@ export default function GetterHeader() {
                   navigate("/marketplace");
                 }}
                 className="option-nav"
-              >
-                cryptocurrencies
-              </Nav.Link>
-              <Nav.Link
-                onClick={() => {
-                  navigate("/marketplace");
-                }}
-                className="option-nav"
-              >
-                exchanges
-              </Nav.Link>
-              <Nav.Link
-                onClick={() => {
-                  navigate("/marketplace");
-                }}
-                className="option-nav"
-              >
+                >
                 NFT
               </Nav.Link>
-              <Nav.Link
+                {/* <Nav.Link
+                  onClick={() => {
+                    navigate("/marketplace");
+                  }}
+                  className="option-nav"
+                >
+                  cryptocurrencies
+                </Nav.Link>
+                <Nav.Link
+                  onClick={() => {
+                    navigate("/marketplace");
+                  }}
+                  className="option-nav"
+                >
+                  exchanges
+                </Nav.Link> */}
+              {/* <Nav.Link
                 onClick={() => {
                   navigate("/marketplace");
                 }}
@@ -91,7 +91,7 @@ export default function GetterHeader() {
                 className="option-nav"
               >
                 product
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link
                 onClick={() => {
                   navigate("/marketplace");
@@ -100,12 +100,6 @@ export default function GetterHeader() {
               >
                 portfolio
               </Nav.Link>
-              {/* <Nav.Link onClick={() => {
-                  navigate("/marketplace");
-                }} className="usd-button">
-                <Image1 src={Usdsettings} />
-                <Usd>usd</Usd>
-              </Nav.Link> */}
               <Nav.Link className="option-nav">
                 <ButtonC>&#36;USD</ButtonC>
               </Nav.Link>

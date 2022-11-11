@@ -13,7 +13,7 @@ export const GetterHeaderContainer = styled.div`
 export const LogoImg = styled.img`
   align-items: center;
   padding: 0;
-  width: 80%;
+  width: 30%;
   margin: auto;
 
   @media screen and (max-width: 800px) {
